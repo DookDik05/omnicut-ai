@@ -1,0 +1,114 @@
+{
+  "topbar": {
+    "untitled_project": "Untitled Project",
+    "project_title_placeholder": "Project title",
+    "export_btn": "Export Video",
+    "undo": "Undo",
+    "redo": "Redo"
+  },
+  "tabs": {
+    "media": "Media",
+    "ai": "AI Tools",
+    "text": "Text",
+    "audio": "Audio",
+    "effects": "Effects"
+  },
+  "media": {
+    "import": "Import media",
+    "library_title": "Media Library",
+    "empty_title": "No media yet",
+    "empty_desc": "Import videos, audio or images to start editing.",
+    "supported": "MP4 · MOV · WebM · MP3 · WAV · PNG",
+    "add_to_timeline": "Add to timeline"
+  },
+  "ai_panel": {
+    "header": "AI Assistant",
+    "subtitle": "One-click automation for everyday edits"
+  },
+  "text": {
+    "add_title": "Add Title",
+    "add_caption": "Add Caption",
+    "title_placeholder": "Your headline here",
+    "caption_placeholder": "Caption text"
+  },
+  "audio": {
+    "music_header": "Music Library",
+    "sfx_header": "Sound Effects",
+    "record_voiceover": "Record Voiceover",
+    "add_track": "Add to music track"
+  },
+  "effects": {
+    "transitions_header": "Transitions",
+    "filters_header": "Filters",
+    "applied_note": "Select two adjacent clips to place a transition between them.",
+    "transition_cross_dissolve": "Cross Dissolve",
+    "transition_directional_blur": "Directional Blur",
+    "transition_push": "Push",
+    "transition_zoom": "Zoom",
+    "transition_light_leak": "Light Leak",
+    "filter_warm": "Warm Film",
+    "filter_cool": "Cool Cinema",
+    "filter_mono": "Mono",
+    "filter_vivid": "Vivid Pop"
+  },
+  "canvas": {
+    "empty_title": "Nothing to preview yet",
+    "empty_desc": "Add a clip on the main video track.",
+    "safe_zones": "Safe zones",
+    "aspect_ratio": "Aspect ratio",
+    "fullscreen": "Fullscreen preview"
+  },
+  "playback": {
+    "play": "Play",
+    "pause": "Pause",
+    "go_start": "Go to start",
+    "go_end": "Go to end",
+    "back_1s": "Back 1 second",
+    "fwd_1s": "Forward 1 second"
+  },
+  "inspector": {
+    "header": "Inspector",
+    "empty_title": "Select a clip",
+    "empty_desc": "Properties of the selected clip will appear here.",
+    "section_clip": "Clip",
+    "section_transform": "Transform",
+    "section_composition": "Composition",
+    "section_audio": "Audio & Speed",
+    "section_ai": "AI Metadata",
+    "field_name": "Name",
+    "field_start": "Start",
+    "field_duration": "Duration",
+    "field_x": "Position X",
+    "field_y": "Position Y",
+    "field_scale": "Scale",
+    "field_rotation": "Rotation",
+    "field_opacity": "Opacity",
+    "field_volume": "Volume",
+    "field_speed": "Speed",
+    "badge_cleaned": "Studio sound applied",
+    "badge_masked": "Background removed",
+    "badge_transcript": "Transcript ready",
+    "reset": "Reset"
+  },
+  "timeline": {
+    "track_overlay": "Overlay / Text",
+    "track_main": "Main Video",
+    "track_audio": "Voice / Audio",
+    "track_music": "Music / SFX",
+    "split": "Split Clip",
+    "delete": "Delete",
+    "ripple_delete": "Ripple Delete",
+    "snap_toggle": "Toggle Snapping",
+    "zoom_in": "Zoom In",
+    "zoom_out": "Zoom Out",
+    "zoom_fit": "Fit Timeline",
+    "silence_detect": "Clean Speech",
+    "auto_subtitle": "Auto Subtitle",
+    "mute_track": "Mute Track",
+    "unmute_track": "Unmute Track",
+    "hide_track": "Hide Track",
+    "show_track": "Show Track",
+    "lock_track": "Lock Track",
+    "unlock_track": "Unlock Track"
+  }
+}

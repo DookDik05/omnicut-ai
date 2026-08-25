@@ -1,0 +1,30 @@
+{
+  "app": {
+    "name": "OmniCut AI",
+    "tagline": "Intelligent video editing platform"
+  },
+  "actions": {
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "done": "Done",
+    "close": "Close",
+    "run": "Run",
+    "add": "Add",
+    "retry": "Retry"
+  },
+  "language": {
+    "switch": "Switch language"
+  },
+  "cloud": {
+    "saved": "All changes saved to cloud",
+    "saving": "Saving changes...",
+    "offline": "Working offline - changes kept locally"
+  },
+  "toast": {
+    "added_to_timeline": "Added to timeline",
+    "applied": "{tool} applied successfully",
+    "demo_note": "Demo build - simulated result",
+    "coming_soon": "Coming soon in the next sprint"
+  },
+  "shortcuts_hint": "Space Play · S Split · Del Remove · Ctrl+Z Undo"
+}

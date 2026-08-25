@@ -1,0 +1,30 @@
+{
+  "title": "ส่งออกวิดีโอ",
+  "desc": "เรนเดอร์ไทม์ไลน์ของคุณด้วย GPU บนคลาวด์",
+  "presets": {
+    "youtube_4k_name": "YouTube 4K",
+    "youtube_4k_detail": "3840 × 2160 · 60 fps · H.265",
+    "youtube_hd_name": "YouTube 1080p",
+    "youtube_hd_detail": "1920 × 1080 · 60 fps · H.264",
+    "vertical_name": "Reels / Shorts / TikTok",
+    "vertical_detail": "1080 × 1920 · 30 fps · H.264",
+    "custom_name": "กำหนดเอง",
+    "custom_detail": "ตามค่าแคนวาสของโปรเจกต์"
+  },
+  "fields": {
+    "resolution": "ความละเอียด",
+    "fps": "อัตราเฟรม",
+    "format": "รูปแบบไฟล์",
+    "bitrate": "บิตเรต",
+    "audio_rate": "อัตราตัวอย่างเสียง"
+  },
+  "submit": "เริ่มส่งออก",
+  "progress_queued": "เข้าคิวเรนเดอร์บนเซิร์ฟเวอร์...",
+  "progress_rendering": "กำลังเรนเดอร์เฟรม...",
+  "progress_encoding": "กำลังเข้ารหัสวิดีโอ...",
+  "progress_uploading": "กำลังอัปโหลดไฟล์ผลลัพธ์...",
+  "done_title": "ส่งออกสำเร็จ",
+  "done_desc": "วิดีโอของคุณพร้อมดาวน์โหลดแล้ว",
+  "download": "ดาวน์โหลด MP4",
+  "note": "เวอร์ชันสาธิต - การเรนเดอร์ถูกจำลอง"
+}

@@ -1,0 +1,46 @@
+
+> omnicut-ai@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.5.24 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://26.58.253.0:3000
+
+ ✓ Starting...
+ ✓ Compiled middleware in 401ms
+ ✓ Ready in 5.3s
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 5.8s
+ ⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/th'
+}
+ ○ Compiling /_error ...
+ GET /th 200 in 2813ms
+ GET /th 200 in 466ms
+ ✓ Compiled /_error in 1970ms
+ GET /en 200 in 385ms
+ ✓ Compiled /favicon.ico in 317ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 773ms
+ ✓ Compiled in 129ms
+ ✓ Compiled in 108ms
+ GET /th 200 in 623ms
+ GET /en 200 in 475ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 382ms
+ GET /en 200 in 527ms
+ GET /th 200 in 540ms
+ GET /th 200 in 546ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 334ms
+ GET /th 200 in 547ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 366ms
+ ✓ Compiled in 107ms
+ ✓ Compiled in 111ms
+ ✓ Compiled in 108ms
+ GET /th 200 in 880ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 349ms
+ GET /th 200 in 408ms
+ ✓ Compiled in 83ms
+ ✓ Compiled in 131ms
+ GET /th 200 in 1022ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 336ms
+[?25h

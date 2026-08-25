@@ -1,0 +1,114 @@
+{
+  "topbar": {
+    "untitled_project": "โปรเจกต์ยังไม่ได้ตั้งชื่อ",
+    "project_title_placeholder": "ชื่อโปรเจกต์",
+    "export_btn": "ส่งออกวิดีโอ",
+    "undo": "ย้อนกลับ",
+    "redo": "ทำซ้ำ"
+  },
+  "tabs": {
+    "media": "มีเดีย",
+    "ai": "AI Tools",
+    "text": "ข้อความ",
+    "audio": "เสียง",
+    "effects": "เอฟเฟกต์"
+  },
+  "media": {
+    "import": "นำเข้ามีเดีย",
+    "library_title": "คลังมีเดีย",
+    "empty_title": "ยังไม่มีมีเดีย",
+    "empty_desc": "นำเข้าวิดีโอ เสียง หรือรูปภาพ เพื่อเริ่มตัดต่อ",
+    "supported": "MP4 · MOV · WebM · MP3 · WAV · PNG",
+    "add_to_timeline": "เพิ่มลงไทม์ไลน์"
+  },
+  "ai_panel": {
+    "header": "ผู้ช่วย AI",
+    "subtitle": "ตัดต่อทุกวันด้วยคลิกเดียว"
+  },
+  "text": {
+    "add_title": "เพิ่มหัวข้อ",
+    "add_caption": "เพิ่มแคปชัน",
+    "title_placeholder": "ใส่หัวข้อของคุณที่นี่",
+    "caption_placeholder": "ข้อความแคปชัน"
+  },
+  "audio": {
+    "music_header": "คลังเพลง",
+    "sfx_header": "เอฟเฟกต์เสียง",
+    "record_voiceover": "อัดเสียงพากย์",
+    "add_track": "เพิ่มลงแทร็กเพลง"
+  },
+  "effects": {
+    "transitions_header": "ทรานซิชัน",
+    "filters_header": "ฟิลเตอร์",
+    "applied_note": "เลือกคลิปที่อยู่ติดกันสองคลิป เพื่อวางทรานซิชันระหว่างคลิป",
+    "transition_cross_dissolve": "Cross Dissolve",
+    "transition_directional_blur": "Directional Blur",
+    "transition_push": "Push",
+    "transition_zoom": "Zoom",
+    "transition_light_leak": "Light Leak",
+    "filter_warm": "Warm Film",
+    "filter_cool": "Cool Cinema",
+    "filter_mono": "Mono",
+    "filter_vivid": "Vivid Pop"
+  },
+  "canvas": {
+    "empty_title": "ยังไม่มีภาพพรีวิว",
+    "empty_desc": "เพิ่มคลิปลงแทร็กวิดีโอหลักก่อน",
+    "safe_zones": "เส้น Safe Zone",
+    "aspect_ratio": "สัดส่วนภาพ",
+    "fullscreen": "พรีวิวเต็มจอ"
+  },
+  "playback": {
+    "play": "เล่น",
+    "pause": "หยุด",
+    "go_start": "ไปจุดเริ่มต้น",
+    "go_end": "ไปจุดสิ้นสุด",
+    "back_1s": "ถอยหลัง 1 วินาที",
+    "fwd_1s": "เดินหน้า 1 วินาที"
+  },
+  "inspector": {
+    "header": "Inspector",
+    "empty_title": "เลือกคลิปก่อน",
+    "empty_desc": "คุณสมบัติของคลิปที่เลือกจะแสดงที่นี่",
+    "section_clip": "คลิป",
+    "section_transform": "ตำแหน่งและขนาด",
+    "section_composition": "การแสดงผล",
+    "section_audio": "เสียงและความเร็ว",
+    "section_ai": "ข้อมูล AI",
+    "field_name": "ชื่อ",
+    "field_start": "จุดเริ่ม",
+    "field_duration": "ความยาว",
+    "field_x": "ตำแหน่ง X",
+    "field_y": "ตำแหน่ง Y",
+    "field_scale": "ขนาด",
+    "field_rotation": "การหมุน",
+    "field_opacity": "ความทึบ",
+    "field_volume": "ระดับเสียง",
+    "field_speed": "ความเร็ว",
+    "badge_cleaned": "ปรับเสียงสตูดิโอแล้ว",
+    "badge_masked": "ลบพื้นหลังแล้ว",
+    "badge_transcript": "พร้อมข้อความถอดเสียง",
+    "reset": "รีเซ็ต"
+  },
+  "timeline": {
+    "track_overlay": "โอเวอร์เลย์ / ข้อความ",
+    "track_main": "วิดีโอหลัก",
+    "track_audio": "พากย์ / เสียง",
+    "track_music": "ดนตรี / SFX",
+    "split": "ตัดคลิป",
+    "delete": "ลบ",
+    "ripple_delete": "ลบพร้อมขยับคลิป",
+    "snap_toggle": "เปิด/ปิด การจัดชิดอัตโนมัติ",
+    "zoom_in": "ขยายไทม์ไลน์",
+    "zoom_out": "ย่อไทม์ไลน์",
+    "zoom_fit": "ดูให้พอดีจอ",
+    "silence_detect": "เก็บเสียงให้สะอาด",
+    "auto_subtitle": "สร้างคำบรรยายอัตโนมัติ",
+    "mute_track": "ปิดเสียงแทร็ก",
+    "unmute_track": "เปิดเสียงแทร็ก",
+    "hide_track": "ซ่อนแทร็ก",
+    "show_track": "แสดงแทร็ก",
+    "lock_track": "ล็อกแทร็ก",
+    "unlock_track": "ปลดล็อกแทร็ก"
+  }
+}

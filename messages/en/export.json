@@ -1,0 +1,30 @@
+{
+  "title": "Export Video",
+  "desc": "Render your timeline with cloud GPU acceleration.",
+  "presets": {
+    "youtube_4k_name": "YouTube 4K",
+    "youtube_4k_detail": "3840 × 2160 · 60 fps · H.265",
+    "youtube_hd_name": "YouTube 1080p",
+    "youtube_hd_detail": "1920 × 1080 · 60 fps · H.264",
+    "vertical_name": "Reels / Shorts / TikTok",
+    "vertical_detail": "1080 × 1920 · 30 fps · H.264",
+    "custom_name": "Custom",
+    "custom_detail": "Match project canvas settings"
+  },
+  "fields": {
+    "resolution": "Resolution",
+    "fps": "Frame rate",
+    "format": "Format",
+    "bitrate": "Bitrate",
+    "audio_rate": "Audio sample rate"
+  },
+  "submit": "Start Export",
+  "progress_queued": "Queued on render farm...",
+  "progress_rendering": "Rendering frames...",
+  "progress_encoding": "Encoding video...",
+  "progress_uploading": "Uploading result...",
+  "done_title": "Export complete",
+  "done_desc": "Your video is ready to download.",
+  "download": "Download MP4",
+  "note": "Demo build - render is simulated"
+}

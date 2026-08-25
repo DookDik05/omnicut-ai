@@ -1,0 +1,59 @@
+{
+  "auto_subtitle": {
+    "title": "AI Auto Subtitle",
+    "desc": "Convert speech into accurate captions with animated presets.",
+    "language_label": "Spoken language",
+    "language_auto": "Auto detect",
+    "style_label": "Caption style",
+    "style_karaoke": "Karaoke highlight",
+    "style_pop": "Pop-in",
+    "style_minimal": "Minimalist box",
+    "result_count": "{count} caption segments ready"
+  },
+  "silence": {
+    "title": "Silence & Filler Cutter",
+    "desc": "Detect and remove dead pauses and stuttering instantly.",
+    "threshold_label": "Minimum silence length",
+    "remove_fillers": "Also remove filler words (uh, um, เอ่อ)",
+    "result_found": "{count} segments detected · {seconds}s of dead air",
+    "result_empty": "No dead air detected. Speech already clean."
+  },
+  "tts": {
+    "title": "AI Voice Generator",
+    "desc": "Turn scripts into natural Thai or English voiceovers.",
+    "script_label": "Script",
+    "voice_label": "Voice",
+    "voice_aria": "Aria - Warm female (EN)",
+    "voice_prem": "Prem - Friendly male (TH)",
+    "voice_kaito": "Kaito - Energetic male (EN)",
+    "speed_label": "Speaking speed",
+    "result_ready": "Voiceover clip ready ({duration}s)"
+  },
+  "cutout": {
+    "title": "AI Smart Cutout",
+    "desc": "Remove or replace backgrounds without a green screen.",
+    "result_done": "Subject mask generated for this clip"
+  },
+  "broll": {
+    "title": "Smart B-Roll Suggester",
+    "desc": "Get stock footage ideas that match your transcript.",
+    "result_suggestions": "Suggested B-Roll clips",
+    "item_city": "City Timelapse",
+    "item_desk": "Workspace Desk",
+    "item_nature": "Nature Drone Shot",
+    "item_gradient": "Abstract Gradient"
+  },
+  "enhancer": {
+    "title": "AI Audio Enhancer",
+    "desc": "Strip echo, hum and noise with studio-grade voice isolation.",
+    "strength_label": "Clean strength",
+    "result_done": "Studio sound applied to this clip"
+  },
+  "dialog": {
+    "idle_hint": "Adjust the options below, then run the AI task.",
+    "stage_upload": "Uploading source media...",
+    "stage_analyze": "Analyzing with AI model...",
+    "stage_generate": "Generating results...",
+    "stage_finalize": "Finalizing output..."
+  }
+}
