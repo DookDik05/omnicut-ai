@@ -13,17 +13,15 @@ import type {
 import { buildInitialProject, TRACK_IDS } from "@/lib/sample-data";
 import { ASPECT_DIMENSIONS, clamp, snapToCandidates, uid } from "@/lib/utils";
 import {
-  simulateBRoll,
-  simulateCutout,
-  simulateEnhance,
-  simulateSilenceDetect,
-  simulateTranscribe,
-  simulateVoiceover,
-  type BRollSuggestion as BRollPayload,
-  type JobProgress,
-  type ProgressCallback,
-  type VoiceoverResult as VoiceoverPayload,
-} from "@/lib/services/mock-ai-service";
+  broll as simulateBRoll,
+  cutout as simulateCutout,
+  enhance as simulateEnhance,
+  detectSilence as simulateSilenceDetect,
+  transcribe as simulateTranscribe,
+  voiceover as simulateVoiceover,
+} from "@/lib/services/ai-service";
+import type { BRollSuggestion as BRollPayload, VoiceoverResult as VoiceoverPayload } from "@/lib/services/ai/types";
+import type { JobProgress, ProgressCallback } from "@/lib/services/mock-ai-service";
 
 const MAX_HISTORY = 60;
 const MIN_PIECE_SEC = 0.08;
@@ -618,7 +616,7 @@ export const useEditorStore = create<EditorStore>((set, get) => {
           const target = getTargetClip(project, selectedClipId);
           const transcript = target?.aiMetadata?.transcript?.length
             ? target.aiMetadata.transcript
-            : await simulateTranscribe(onProgress);
+            : await simulateTranscribe(onProgress, aiTask.subtitleLang);
           set((s) =>
             s.aiTask
               ? { aiTask: { ...s.aiTask, status: "done", percent: 100, transcriptResult: transcript } }
@@ -658,14 +656,16 @@ export const useEditorStore = create<EditorStore>((set, get) => {
               : s
           );
         } else if (aiTask.kind === "broll") {
-          const result = await simulateBRoll(onProgress);
+          const target = getTargetClip(project, selectedClipId);
+          const transcript = target?.aiMetadata?.transcript ?? [];
+          const result = await simulateBRoll(onProgress, transcript);
           set((s) =>
             s.aiTask
               ? { aiTask: { ...s.aiTask, status: "done", percent: 100, brollResult: result } }
               : s
           );
         } else {
-          await simulateEnhance(onProgress);
+          await simulateEnhance(onProgress, aiTask.enhancerStrength);
           set((s) =>
             s.aiTask ? { aiTask: { ...s.aiTask, status: "done", percent: 100 } } : s
           );
